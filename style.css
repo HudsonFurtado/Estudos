@@ -2,20 +2,23 @@
  
 
 body { background: rgb(231, 244, 245);
-
+margin: auto;
+max-width: 900px;
+text-align: center;
 }
 img{
-    border: 2px blacks solid;
-border-radius: 50%;
+    border: 2px black solid;
+border-radius: 1%;
+margin-top: 15px;
+width: 100%;
 }
-header {
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;   
    padding: 10px;
    color: aliceblue;
-   !!!border: 1px solid rgb(0, 0, 0);
-   margin: 15px;
+   border: 1px solid rgb(0, 0, 0);
     font-size: 25px;
-    text-align: center;
+   
     text-shadow: black 5px 7px 9px;
 
 }
@@ -24,9 +27,9 @@ div {
     padding: 10px;
     color: aliceblue;
     border: 1px solid rgb(0, 0, 0);
-    margin: 15px;
+  
      font-size: 25px;
-     text-align: center;
+     
      text-shadow: black 5px 7px 9px;
      border-radius: 5px;
 }
@@ -41,9 +44,7 @@ article{
     padding: 10px;
     color: aliceblue;
     border: 1px solid rgb(0, 0, 0);
-    margin: 15px;
      font-size: 25px;
-     text-align: center;
      text-shadow: black 5px 7px 9px;
 }
 
