@@ -11,7 +11,27 @@
             max-width: 900px;
             border: 2px black;
             padding: 1px;
+            display: flex;
 
+        }
+        .flex-container{
+            margin: 1px;
+            padding: 0px;
+            display: flex;
+            list-style: none;
+
+        }
+
+        .flex-item{
+            background-color: bisque;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 30%;
+            width: 160px;
+            line-height: 90px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
         }
 
         .item{
@@ -31,7 +51,8 @@
     <h1>Projeto Fullstack</h1>
  </header>    
  <div class="flex">
-    <h2> Fullstack developer links</h2>
+    <div class="item">Fullstack developer links</div>
+    <div class="item"></div>
     <a href="https://web.dio.me/course/introducao-ao-git-e-ao-github/learning/7410b862-1989-421a-a48d-500db5857f53?back=/track/spread-fullstack-developer&tab=undefined&moduleId=undefined" target="_blank">
         Tutorial de instalação do Git/Github </a>
     <div class="item">Link aula HTML/CSS basico</div>
@@ -39,11 +60,12 @@
     <div class="item">Link aula java</div>
  </div>
  <article>
+  <ul class="flex-container">
+    <li class="flex-item">item 1</li>
+    <li class="flex-item">item 2</li>
+    <li class="flex-item">item 3</li>
 
-    <h2>Pratica de flexbox</h2>
-
-
-    <h3> post </h3>
+  </ul>
  </article>
     <footer>
         <br>
